@@ -1,0 +1,21 @@
+{
+  "name": "socket-server",
+  "version": "1.0.0",
+  "description": "One to one chat",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "chat",
+    "server"
+  ],
+  "type": "module",
+  "author": "Abi",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "socket.io": "^4.8.1"
+  }
+}
